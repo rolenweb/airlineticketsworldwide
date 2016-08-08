@@ -1,0 +1,11 @@
+RewriteEngine On
+#если запрошенного файла или папки не существует
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#регулярим)
+RewriteRule ^flights/? flights.php [L,QSA]
+RewriteRule ^contact/? contact.php [L,QSA]
+RewriteRule ^terms/? terms.php [L,QSA]
+RewriteRule ^privacy/? privacy.php [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/ index.php?strana=$1&gorod=$2 [L,QSA]
+RewriteRule ^([^/]+)/ index.php?strana=$1 [L,QSA]

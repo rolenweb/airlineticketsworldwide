@@ -1,0 +1,67 @@
+.routes-links {
+  margin: 0 0 50px;
+}
+.routes-links a {
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 0 5px 10px;
+  text-decoration: none;
+  color: #818c8d;
+  -webkit-transition: .3s ease;
+          transition: .3s ease;
+}
+.routes-links a:hover {
+  border-color: #19bdce;
+  color: #19bdce;
+}
+.border-block-avia{
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  display: inline-block;
+}
+.block-single-avia{
+  text-align: center;
+}
+.block-single-avia h2{
+  text-align: center;
+  padding-top: 10px;
+}
+.block-single-avia-img{
+  text-align: center;
+  padding-top: 10px;
+}
+.block-title-avia{
+  text-align: center;
+}
+.block-find-avia{
+  text-align: center;
+}
+.related-routes{
+   margin: 0 0 50px;
+}
+.related-routes a {
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 0 5px 10px;
+  text-decoration: none;
+  color: #818c8d;
+  -webkit-transition: .3s ease;
+          transition: .3s ease;
+}
+.related-routes a:hover {
+  border-color: #19bdce;
+  color: #19bdce;
+}
+
+.site-footer .footer-menu a {
+  color: #818c8d;
+  text-decoration: none;
+  display: inline-block;
+}
+.block-counter-avia{
+  text-align: center;
+}
